@@ -1,0 +1,336 @@
+# lattice-scale --inv-acoustic-scale=3 "ark:gunzip -c exp_FG/mono/decode/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp_FG/mono/graph/words.txt ark:- ark,t:exp_FG/mono/decode/scoring/3.tra 
+# Started at Sun Apr  1 15:38:16 CST 2018
+#
+lattice-best-path --word-symbol-table=exp_FG/mono/graph/words.txt ark:- ark,t:exp_FG/mono/decode/scoring/3.tra 
+lattice-scale --inv-acoustic-scale=3 'ark:gunzip -c exp_FG/mono/decode/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1101M0001, best cost 29.9562 + 9282.6 = 9312.56 over 285 frames.
+zh1101M0001 要 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1101M0002, best cost 31.909 + 11276.4 = 11308.3 over 343 frames.
+zh1101M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1101M0003, best cost 36.7846 + 11724.1 = 11760.9 over 381 frames.
+zh1101M0003 要 二 箱 箱 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1101M0004, best cost 30.921 + 10003 = 10033.9 over 314 frames.
+zh1101M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1101M0005, best cost 44.9773 + 11253.9 = 11298.9 over 343 frames.
+zh1101M0005 要 要 四 箱 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1101M0006, best cost 19.1543 + 4810.52 = 4829.67 over 142 frames.
+zh1101M0006 要 打开 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1101M0007, best cost 14.048 + 5662.77 = 5676.81 over 170 frames.
+zh1101M0007 关闭 阀门 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1101M0008, best cost 20.4322 + 5660.4 = 5680.83 over 180 frames.
+zh1101M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1101M0009, best cost 21.028 + 4732.52 = 4753.55 over 151 frames.
+zh1101M0009 关掉 灯 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1110M0001, best cost 30.9616 + 9277.11 = 9308.07 over 285 frames.
+zh1110M0001 二 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1110M0002, best cost 31.3465 + 11273.3 = 11304.7 over 343 frames.
+zh1110M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1110M0003, best cost 36.6711 + 11726.9 = 11763.6 over 381 frames.
+zh1110M0003 要 二 箱 箱 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1110M0004, best cost 34.2431 + 9998.01 = 10032.3 over 314 frames.
+zh1110M0004 要 要 四 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1110M0005, best cost 44.7598 + 11259.1 = 11303.9 over 343 frames.
+zh1110M0005 要 要 四 箱 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1110M0006, best cost 19.077 + 4815.42 = 4834.5 over 142 frames.
+zh1110M0006 要 打开 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1110M0007, best cost 14.0135 + 5659.74 = 5673.75 over 170 frames.
+zh1110M0007 关闭 阀门 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1110M0008, best cost 20.488 + 5662.56 = 5683.05 over 180 frames.
+zh1110M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1110M0009, best cost 20.9809 + 4748.93 = 4769.91 over 151 frames.
+zh1110M0009 关掉 灯 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1111M0001, best cost 25.6518 + 11704.8 = 11730.4 over 372 frames.
+zh1111M0001 要 四 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1111M0002, best cost 30.8777 + 10794 = 10824.9 over 333 frames.
+zh1111M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1111M0003, best cost 40.2977 + 14067.4 = 14107.7 over 439 frames.
+zh1111M0003 要 三 箱 银桥 红枣 牛奶 少 加糖 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1111M0004, best cost 31.0456 + 11833.5 = 11864.5 over 372 frames.
+zh1111M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1111M0005, best cost 30.8709 + 12421.2 = 12452 over 400 frames.
+zh1111M0005 要 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1111M0006, best cost 10.0371 + 5424.99 = 5435.03 over 190 frames.
+zh1111M0006 打开 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1111M0007, best cost 21.8243 + 6166.06 = 6187.88 over 218 frames.
+zh1111M0007 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1111M0008, best cost 20.1349 + 7369.54 = 7389.68 over 247 frames.
+zh1111M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1111M0009, best cost 10.2683 + 5586.05 = 5596.32 over 199 frames.
+zh1111M0009 关掉 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1112M0001, best cost 42.6616 + 10442.3 = 10484.9 over 333 frames.
+zh1112M0001 要 要 要 四 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1112M0002, best cost 29.3366 + 11392.3 = 11421.7 over 362 frames.
+zh1112M0002 要 二 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1112M0003, best cost 44.6936 + 11034.2 = 11078.9 over 333 frames.
+zh1112M0003 要 四 箱 箱 银桥 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1112M0004, best cost 26.2074 + 10156.5 = 10182.7 over 324 frames.
+zh1112M0004 要 四 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1112M0005, best cost 29.773 + 10733.1 = 10762.8 over 333 frames.
+zh1112M0005 要 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1112M0006, best cost 28.3363 + 4084.41 = 4112.75 over 132 frames.
+zh1112M0006 要 打开 泵 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1112M0007, best cost 30.4071 + 5326.91 = 5357.31 over 161 frames.
+zh1112M0007 要 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1112M0008, best cost 34.1016 + 6241.15 = 6275.25 over 199 frames.
+zh1112M0008 要 开启 要 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1112M0009, best cost 11.4955 + 4314.26 = 4325.75 over 142 frames.
+zh1112M0009 关掉 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1113M0001, best cost 30.9798 + 9274.68 = 9305.66 over 285 frames.
+zh1113M0001 二 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1113M0002, best cost 31.4012 + 11273.6 = 11305 over 343 frames.
+zh1113M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1113M0003, best cost 36.7915 + 11735.7 = 11772.4 over 381 frames.
+zh1113M0003 要 二 箱 箱 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1113M0004, best cost 30.2524 + 10010.1 = 10040.3 over 314 frames.
+zh1113M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1113M0005, best cost 44.9773 + 11261.6 = 11306.6 over 343 frames.
+zh1113M0005 要 要 四 箱 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1113M0006, best cost 19.077 + 4819.99 = 4839.07 over 142 frames.
+zh1113M0006 要 打开 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1113M0007, best cost 14.0574 + 5654.6 = 5668.65 over 170 frames.
+zh1113M0007 关闭 阀门 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1113M0008, best cost 20.4126 + 5670.53 = 5690.94 over 180 frames.
+zh1113M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1113M0009, best cost 20.9799 + 4740.03 = 4761.01 over 151 frames.
+zh1113M0009 关掉 灯 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1114M0001, best cost 25.7608 + 11713.9 = 11739.7 over 372 frames.
+zh1114M0001 要 四 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1114M0002, best cost 30.6036 + 10804.8 = 10835.4 over 333 frames.
+zh1114M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1114M0003, best cost 40.3432 + 14036.3 = 14076.7 over 439 frames.
+zh1114M0003 要 三 箱 银桥 红枣 牛奶 少 加糖 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1114M0004, best cost 31.0456 + 11845 = 11876 over 372 frames.
+zh1114M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1114M0005, best cost 30.8234 + 12418.4 = 12449.2 over 400 frames.
+zh1114M0005 要 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1114M0006, best cost 19.8155 + 5409.65 = 5429.46 over 190 frames.
+zh1114M0006 打开 泵 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1114M0007, best cost 21.8848 + 6214.61 = 6236.5 over 218 frames.
+zh1114M0007 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1114M0008, best cost 20.1275 + 7385.09 = 7405.22 over 247 frames.
+zh1114M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1114M0009, best cost 10.2634 + 5595.33 = 5605.59 over 199 frames.
+zh1114M0009 关掉 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1115M0001, best cost 42.5532 + 10429.9 = 10472.5 over 333 frames.
+zh1115M0001 要 要 要 四 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1115M0002, best cost 29.3408 + 11403.8 = 11433.2 over 362 frames.
+zh1115M0002 要 二 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1115M0003, best cost 44.676 + 11036.8 = 11081.5 over 333 frames.
+zh1115M0003 要 四 箱 箱 银桥 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1115M0004, best cost 26.1717 + 10154.2 = 10180.4 over 324 frames.
+zh1115M0004 要 四 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1115M0005, best cost 29.7716 + 10732.8 = 10762.6 over 333 frames.
+zh1115M0005 要 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1115M0006, best cost 28.3363 + 4092.61 = 4120.94 over 132 frames.
+zh1115M0006 要 打开 泵 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1115M0007, best cost 22.623 + 5330.32 = 5352.94 over 161 frames.
+zh1115M0007 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1115M0008, best cost 34.1339 + 6236.22 = 6270.36 over 199 frames.
+zh1115M0008 要 开启 要 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1115M0009, best cost 11.4985 + 4304.94 = 4316.44 over 142 frames.
+zh1115M0009 关掉 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1116M0001, best cost 29.9743 + 9283.65 = 9313.62 over 285 frames.
+zh1116M0001 要 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1116M0002, best cost 31.3513 + 11277.5 = 11308.9 over 343 frames.
+zh1116M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1116M0003, best cost 36.7664 + 11716.6 = 11753.4 over 381 frames.
+zh1116M0003 要 二 箱 箱 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1116M0004, best cost 31.1074 + 9997.21 = 10028.3 over 314 frames.
+zh1116M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1116M0005, best cost 44.7598 + 11261.4 = 11306.2 over 343 frames.
+zh1116M0005 要 要 四 箱 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1116M0006, best cost 19.0818 + 4807.44 = 4826.52 over 142 frames.
+zh1116M0006 要 打开 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1116M0007, best cost 14.0124 + 5653.95 = 5667.96 over 170 frames.
+zh1116M0007 关闭 阀门 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1116M0008, best cost 20.3567 + 5674.99 = 5695.34 over 180 frames.
+zh1116M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1116M0009, best cost 20.9809 + 4741.98 = 4762.96 over 151 frames.
+zh1116M0009 关掉 灯 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1117M0001, best cost 25.6518 + 11710.3 = 11735.9 over 372 frames.
+zh1117M0001 要 四 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1117M0002, best cost 30.6488 + 10786.2 = 10816.8 over 333 frames.
+zh1117M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1117M0003, best cost 40.3347 + 14027.9 = 14068.2 over 439 frames.
+zh1117M0003 要 三 箱 银桥 红枣 牛奶 少 加糖 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1117M0004, best cost 31.0504 + 11838.6 = 11869.6 over 372 frames.
+zh1117M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1117M0005, best cost 34.921 + 12396.5 = 12431.4 over 400 frames.
+zh1117M0005 要 要 四 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1117M0006, best cost 10.0371 + 5440.12 = 5450.15 over 190 frames.
+zh1117M0006 打开 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1117M0007, best cost 11.9888 + 6201.79 = 6213.78 over 218 frames.
+zh1117M0007 关闭 阀门 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1117M0008, best cost 20.1225 + 7400.32 = 7420.45 over 247 frames.
+zh1117M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1117M0009, best cost 10.2947 + 5617.68 = 5627.97 over 199 frames.
+zh1117M0009 关掉 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1118M0001, best cost 42.6762 + 10430.4 = 10473.1 over 333 frames.
+zh1118M0001 要 要 要 四 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1118M0002, best cost 29.2301 + 11410.9 = 11440.1 over 362 frames.
+zh1118M0002 要 二 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1118M0003, best cost 44.6655 + 11043.3 = 11088 over 333 frames.
+zh1118M0003 要 四 箱 箱 银桥 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1118M0004, best cost 26.1679 + 10162.5 = 10188.7 over 324 frames.
+zh1118M0004 要 四 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1118M0005, best cost 29.773 + 10748.3 = 10778.1 over 333 frames.
+zh1118M0005 要 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1118M0006, best cost 18.6285 + 4108.11 = 4126.74 over 132 frames.
+zh1118M0006 要 打开 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1118M0007, best cost 22.6318 + 5331.8 = 5354.43 over 161 frames.
+zh1118M0007 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1118M0008, best cost 34.1339 + 6237.2 = 6271.34 over 199 frames.
+zh1118M0008 要 开启 要 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1118M0009, best cost 11.4985 + 4298.81 = 4310.31 over 142 frames.
+zh1118M0009 关掉 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1102M0001, best cost 25.6128 + 11703.4 = 11729 over 372 frames.
+zh1102M0001 要 四 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1102M0002, best cost 30.8712 + 10783.9 = 10814.8 over 333 frames.
+zh1102M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1102M0003, best cost 40.35 + 14022.8 = 14063.2 over 439 frames.
+zh1102M0003 要 三 箱 银桥 红枣 牛奶 少 加糖 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1102M0004, best cost 31.0456 + 11865.1 = 11896.1 over 372 frames.
+zh1102M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1102M0005, best cost 30.8695 + 12411.7 = 12442.5 over 400 frames.
+zh1102M0005 要 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1102M0006, best cost 10.0323 + 5383.86 = 5393.89 over 190 frames.
+zh1102M0006 打开 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1102M0007, best cost 21.9001 + 6205.76 = 6227.66 over 218 frames.
+zh1102M0007 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1102M0008, best cost 20.13 + 7379.75 = 7399.88 over 247 frames.
+zh1102M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1102M0009, best cost 10.2683 + 5586.14 = 5596.4 over 199 frames.
+zh1102M0009 关掉 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1103M0001, best cost 42.6616 + 10442.3 = 10484.9 over 333 frames.
+zh1103M0001 要 要 要 四 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1103M0002, best cost 29.3366 + 11392.3 = 11421.7 over 362 frames.
+zh1103M0002 要 二 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1103M0003, best cost 44.6936 + 11034.2 = 11078.9 over 333 frames.
+zh1103M0003 要 四 箱 箱 银桥 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1103M0004, best cost 26.2074 + 10156.5 = 10182.7 over 324 frames.
+zh1103M0004 要 四 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1103M0005, best cost 29.773 + 10733.1 = 10762.8 over 333 frames.
+zh1103M0005 要 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1103M0006, best cost 28.3363 + 4084.41 = 4112.75 over 132 frames.
+zh1103M0006 要 打开 泵 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1103M0007, best cost 30.4071 + 5326.91 = 5357.31 over 161 frames.
+zh1103M0007 要 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1103M0008, best cost 34.1016 + 6241.15 = 6275.25 over 199 frames.
+zh1103M0008 要 开启 要 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1103M0009, best cost 11.4955 + 4314.26 = 4325.75 over 142 frames.
+zh1103M0009 关掉 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1104M0001, best cost 30.9798 + 9274.85 = 9305.83 over 285 frames.
+zh1104M0001 二 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1104M0002, best cost 31.4012 + 11273.3 = 11304.7 over 343 frames.
+zh1104M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1104M0003, best cost 36.7915 + 11735.7 = 11772.5 over 381 frames.
+zh1104M0003 要 二 箱 箱 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1104M0004, best cost 30.2524 + 10009.9 = 10040.2 over 314 frames.
+zh1104M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1104M0005, best cost 44.9773 + 11261.6 = 11306.6 over 343 frames.
+zh1104M0005 要 要 四 箱 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1104M0006, best cost 19.077 + 4819.79 = 4838.87 over 142 frames.
+zh1104M0006 要 打开 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1104M0007, best cost 14.0662 + 5654.07 = 5668.13 over 170 frames.
+zh1104M0007 关闭 阀门 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1104M0008, best cost 20.3927 + 5663.04 = 5683.43 over 180 frames.
+zh1104M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1104M0009, best cost 20.9809 + 4751.7 = 4772.68 over 151 frames.
+zh1104M0009 关掉 灯 灯 
+LOG (lattice-scale[5.3.76~1-26df3]:main():lattice-scale.cc:90) Done 162 lattices.
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1105M0001, best cost 25.6128 + 11706.2 = 11731.8 over 372 frames.
+zh1105M0001 要 四 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1105M0002, best cost 30.8777 + 10805.1 = 10836 over 333 frames.
+zh1105M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1105M0003, best cost 40.2996 + 14029.1 = 14069.4 over 439 frames.
+zh1105M0003 要 三 箱 银桥 红枣 牛奶 少 加糖 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1105M0004, best cost 31.0504 + 11831.5 = 11862.5 over 372 frames.
+zh1105M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1105M0005, best cost 34.9196 + 12407.2 = 12442.1 over 400 frames.
+zh1105M0005 要 要 四 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1105M0006, best cost 9.97142 + 5447.66 = 5457.63 over 190 frames.
+zh1105M0006 打开 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1105M0007, best cost 21.8579 + 6243.25 = 6265.11 over 218 frames.
+zh1105M0007 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1105M0008, best cost 20.0796 + 7378.32 = 7398.4 over 247 frames.
+zh1105M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1105M0009, best cost 10.2565 + 5618.36 = 5628.61 over 199 frames.
+zh1105M0009 关掉 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1106M0001, best cost 42.5349 + 10429.9 = 10472.5 over 333 frames.
+zh1106M0001 要 要 要 四 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1106M0002, best cost 29.3408 + 11414.4 = 11443.7 over 362 frames.
+zh1106M0002 要 二 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1106M0003, best cost 44.676 + 11027.5 = 11072.1 over 333 frames.
+zh1106M0003 要 四 箱 箱 银桥 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1106M0004, best cost 26.1636 + 10147.1 = 10173.3 over 324 frames.
+zh1106M0004 要 四 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1106M0005, best cost 29.773 + 10737.6 = 10767.4 over 333 frames.
+zh1106M0005 要 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1106M0006, best cost 18.6285 + 4097.89 = 4116.52 over 132 frames.
+zh1106M0006 要 打开 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1106M0007, best cost 22.5962 + 5313.63 = 5336.23 over 161 frames.
+zh1106M0007 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1106M0008, best cost 42.3643 + 6230.01 = 6272.38 over 199 frames.
+zh1106M0008 要 要 开启 要 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1106M0009, best cost 11.4955 + 4300.11 = 4311.6 over 142 frames.
+zh1106M0009 关掉 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1107M0001, best cost 30.9798 + 9272.86 = 9303.83 over 285 frames.
+zh1107M0001 二 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1107M0002, best cost 31.3465 + 11277.1 = 11308.4 over 343 frames.
+zh1107M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1107M0003, best cost 36.6168 + 11733.9 = 11770.5 over 381 frames.
+zh1107M0003 要 二 箱 箱 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-add-penalty[5.3.76~1-26df3]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 162 lattices.
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1107M0004, best cost 30.9859 + 9998.87 = 10029.9 over 314 frames.
+zh1107M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1107M0005, best cost 44.9845 + 11261.9 = 11306.9 over 343 frames.
+zh1107M0005 要 要 四 箱 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1107M0006, best cost 19.1495 + 4806.97 = 4826.12 over 142 frames.
+zh1107M0006 要 打开 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1107M0007, best cost 14.0392 + 5665.37 = 5679.41 over 170 frames.
+zh1107M0007 关闭 阀门 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1107M0008, best cost 20.4018 + 5671.34 = 5691.74 over 180 frames.
+zh1107M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1107M0009, best cost 21.0238 + 4743.93 = 4764.95 over 151 frames.
+zh1107M0009 关掉 灯 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1108M0001, best cost 25.6128 + 11709.3 = 11734.9 over 372 frames.
+zh1108M0001 要 四 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1108M0002, best cost 30.6036 + 10800.5 = 10831.1 over 333 frames.
+zh1108M0002 要 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1108M0003, best cost 40.2971 + 14026.9 = 14067.2 over 439 frames.
+zh1108M0003 要 三 箱 银桥 红枣 牛奶 少 加糖 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1108M0004, best cost 31.0456 + 11843 = 11874 over 372 frames.
+zh1108M0004 要 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1108M0005, best cost 34.921 + 12402.6 = 12437.6 over 400 frames.
+zh1108M0005 要 要 四 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1108M0006, best cost 9.97142 + 5462.45 = 5472.42 over 190 frames.
+zh1108M0006 打开 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1108M0007, best cost 21.8922 + 6202.17 = 6224.06 over 218 frames.
+zh1108M0007 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1108M0008, best cost 20.1227 + 7375.38 = 7395.5 over 247 frames.
+zh1108M0008 要 开启 窗帘 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1108M0009, best cost 10.2284 + 5603 = 5613.23 over 199 frames.
+zh1108M0009 关掉 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1109M0001, best cost 42.5119 + 10435.6 = 10478.1 over 333 frames.
+zh1109M0001 要 要 要 四 箱 银桥 核桃 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1109M0002, best cost 29.292 + 11406.1 = 11435.4 over 362 frames.
+zh1109M0002 要 二 箱 银桥 花生 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1109M0003, best cost 44.676 + 11024.3 = 11069 over 333 frames.
+zh1109M0003 要 四 箱 箱 银桥 银桥 红枣 牛奶 不 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1109M0004, best cost 26.177 + 10153.4 = 10179.6 over 324 frames.
+zh1109M0004 要 四 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1109M0005, best cost 29.773 + 10743.3 = 10773.1 over 333 frames.
+zh1109M0005 要 箱 银桥 核桃 牛奶 少 加糖 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1109M0006, best cost 18.6285 + 4104.21 = 4122.83 over 132 frames.
+zh1109M0006 要 打开 泵 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1109M0007, best cost 22.623 + 5331.22 = 5353.84 over 161 frames.
+zh1109M0007 关闭 阀门 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1109M0008, best cost 34.1339 + 6235.29 = 6269.42 over 199 frames.
+zh1109M0008 要 开启 要 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:99) For utterance zh1109M0009, best cost 11.4955 + 4296.78 = 4308.28 over 142 frames.
+zh1109M0009 关掉 灯 
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:124) Overall cost per frame is 31.6712 = 0.100125 [graph] + 31.571 [acoustic] over 44388 frames.
+LOG (lattice-best-path[5.3.76~1-26df3]:main():lattice-best-path.cc:128) Done 162 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Apr  1 15:38:16 CST 2018, elapsed time 0 seconds

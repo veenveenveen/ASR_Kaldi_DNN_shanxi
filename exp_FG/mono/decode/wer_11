@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp_FG/mono/decode/scoring/test_filt.txt ark,p:- 
+%WER 16.20 [ 140 / 864, 45 ins, 24 del, 71 sub ]
+%SER 63.58 [ 103 / 162 ]
+Scored 162 sentences, 0 not present in hyp.

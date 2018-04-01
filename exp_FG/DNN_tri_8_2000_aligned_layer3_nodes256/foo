@@ -1,0 +1,19 @@
+num-components 11
+num-updatable-components 4
+left-context 4
+right-context 4
+input-dim 13
+output-dim 376
+parameter-dim 289521
+component 0 : SpliceComponent, input-dim=13, output-dim=117, context=-4 -3 -2 -1 0 1 2 3 4 
+component 1 : FixedAffineComponent, input-dim=117, output-dim=117, linear-params-stddev=0.00722131, bias-params-stddev=0.00793467
+component 2 : AffineComponentPreconditioned, input-dim=117, output-dim=256, linear-params-stddev=0.0699575, bias-params-stddev=0.326743, learning-rate=0.002, alpha=4, max-change=10
+component 3 : TanhComponent, input-dim=256, output-dim=256
+component 4 : AffineComponentPreconditioned, input-dim=256, output-dim=256, linear-params-stddev=0.168492, bias-params-stddev=1.05081, learning-rate=0.002, alpha=4, max-change=10
+component 5 : TanhComponent, input-dim=256, output-dim=256
+component 6 : AffineComponentPreconditioned, input-dim=256, output-dim=256, linear-params-stddev=0.371775, bias-params-stddev=2.3512, learning-rate=0.001, alpha=4, max-change=10
+component 7 : TanhComponent, input-dim=256, output-dim=256
+component 8 : AffineComponentPreconditioned, input-dim=256, output-dim=497, linear-params-stddev=0.0957445, bias-params-stddev=1.12809, learning-rate=0.001, alpha=4, max-change=10
+component 9 : SoftmaxComponent, input-dim=497, output-dim=497
+component 10 : SumGroupComponent, input-dim=497, output-dim=376
+prior dimension: 376, prior sum: 1, prior min: 4.14903e-05

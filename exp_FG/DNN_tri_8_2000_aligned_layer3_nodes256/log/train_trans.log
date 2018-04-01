@@ -1,0 +1,12 @@
+# nnet-train-transitions exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/0.mdl "ark:gunzip -c exp_FG/tri_8_2000_ali/ali.*.gz|" exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/0.mdl 
+# Started at Sun Apr  1 15:43:14 CST 2018
+#
+nnet-train-transitions exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/0.mdl 'ark:gunzip -c exp_FG/tri_8_2000_ali/ali.*.gz|' exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/0.mdl 
+LOG (nnet-train-transitions[5.3.76~1-26df3]:main():nnet-train-transitions.cc:118) Accumulated transition stats from 558 utterances.
+LOG (nnet-train-transitions[5.3.76~1-26df3]:MleUpdate():transition-model.cc:517) TransitionModel::Update, objf change is 0.0962236 per frame over 144612 frames. 
+LOG (nnet-train-transitions[5.3.76~1-26df3]:MleUpdate():transition-model.cc:520) 33 probabilities floored, 1152 out of 1535 transition-states skipped due to insuffient data (it is normal to have some skipped.)
+LOG (nnet-train-transitions[5.3.76~1-26df3]:main():nnet-train-transitions.cc:125) Transition model update: average 0.0962236 log-like improvement per frame over 144612 frames.
+LOG (nnet-train-transitions[5.3.76~1-26df3]:main():nnet-train-transitions.cc:131) Setting priors of pdfs in the model.
+LOG (nnet-train-transitions[5.3.76~1-26df3]:main():nnet-train-transitions.cc:140) Trained transitions of neural network model and wrote it to exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/0.mdl
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sun Apr  1 15:43:15 CST 2018, elapsed time 1 seconds

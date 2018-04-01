@@ -1,0 +1,10 @@
+# nnet-show-progress --use-gpu=no exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/15.mdl ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/train_diagnostic.egs 
+# Started at Sun Apr  1 15:49:06 CST 2018
+#
+nnet-show-progress --use-gpu=no exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/15.mdl ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/train_diagnostic.egs 
+LOG (nnet-show-progress[5.3.76~1-26df3]:main():nnet-show-progress.cc:123) At position 0.5, objf per frame is -1.1031
+LOG (nnet-show-progress[5.3.76~1-26df3]:main():nnet-show-progress.cc:134) Total objf change per component is  [ 0.013317 0.00455037 0.00119148 0.012482 ]
+LOG (nnet-show-progress[5.3.76~1-26df3]:main():nnet-show-progress.cc:145) Parameter differences per layer are  [ 0.407878 0.251429 0.0889221 0.265501 ]
+LOG (nnet-show-progress[5.3.76~1-26df3]:main():nnet-show-progress.cc:153) Relative parameter differences per layer are  [ 0.0307209 0.00647803 0.00115185 0.00791515 ]
+# Accounting: time=10 threads=1
+# Ended (code 0) at Sun Apr  1 15:49:16 CST 2018, elapsed time 10 seconds
